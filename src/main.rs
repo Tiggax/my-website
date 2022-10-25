@@ -2,8 +2,11 @@ use yew::prelude::*;
 
 #[function_component(App)]
 fn app() -> Html {
-    html! {
+    let test = "test";
+    html! {<div>
         <h1>{ "Hello World" }</h1>
+        <h1>{test}</h1>
+        </div>
     }
 }
 
